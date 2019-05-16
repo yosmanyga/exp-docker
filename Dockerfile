@@ -4,7 +4,7 @@ RUN apk add --no-cache \
     # Needed for expo
     bash
 
-RUN npm install -g expo-cli@2.11.7
+RUN npm install -g expo-cli@2.17.2
 
 EXPOSE 19000
 EXPOSE 19001
