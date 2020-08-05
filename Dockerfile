@@ -6,7 +6,7 @@ RUN apk add --no-cache \
     # Needed for expo-optimize
     python python-dev py-pip build-base
 
-RUN npm install -g expo-cli@3.23.1 --unsafe-perm=true
+RUN npm install -g expo-cli@3.23.2 --unsafe-perm=true
 
 EXPOSE 19000
 EXPOSE 19001
